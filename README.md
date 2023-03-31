@@ -5,7 +5,7 @@
   
 <!-- PROJECT LOGO -->
   <a href="https://github.com/Rana-Alhababi/SOLA">
-    <img src="sola.ico" alt="Logo" width="450" height=450">
+    <img src="logo.png" alt="Logo" width="450" height=450">
   </a>
 
 </div>
@@ -14,28 +14,8 @@
 <br />
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#Introduction"></a>Introduction</li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-      <li><a href="# 🛠  technology-with">technology</a></li>
-       <li><a href="#built-with">Built With</a></li>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
 
-  </ol>
-</details>
+
 
 # About the Project
 
@@ -51,7 +31,6 @@ level of quality they'll be receiving
 
 ### Built With
 <!-- technology -->
-## Built With
 
 * [![My Skills](https://skills.thijs.gg/icons?i=bootstrap,html,css)](https://skills.thijs.gg)
 * [![My Skills](https://skills.thijs.gg/icons?i=js,jquery,mysql)](https://skills.thijs.gg)
