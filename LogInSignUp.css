@@ -1,0 +1,113 @@
+
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mafisha";
+}
+
+.signupForm,
+.EmployeeLog-inForm,
+.ManagerLog-inForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #3f3f3f;
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.Button {
+    display: block;
+    margin-left: auto;
+    width: 47%;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(231, 211, 205);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Mafisha";
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgb(152 232 226 / 30%);
+    margin-top: 20px;
+}
+
+.Button:hover {
+    background-color: rgb(235, 224, 221);;
+    transform: translateY(-2px);
+}
+
+.input:focus+.label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+.input:focus {
+    border: 2px solid #3f3f3f;
+}
+
+.input:not(:placeholder-shown)+.label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}

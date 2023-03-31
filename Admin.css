@@ -1,0 +1,130 @@
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    width: 47%;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(231, 211, 205);
+    color: #3f3f33;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Mafisha";
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgb(231, 211, 205);
+    margin-top: 30px;
+}
+
+
+/* The popup form - hidden by default */
+
+.form-add {
+    display: none;
+    text-align: center;
+    margin: auto;
+    min-width: 40%;
+    max-width: 56%;
+    justify-content: center;
+    border: 3px ridge #f1f1f1;
+    position: relative;
+    flex-wrap: nowrap;
+    font-family: "Mafisha";
+}
+
+.form-edit {
+    display: none;
+    text-align: center;
+    min-width: 40%;
+    max-width: 60%;
+    justify-content: center;
+    border: 3px ridge #f1f1f1;
+    position: relative;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+    font-family: "Mafisha";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Add styles to the form container */
+.add {
+    position: center;
+    flex: center;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+
+    border-style: hidden;
+}
+
+.edit {
+    position: center;
+    flex: center;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+
+}
+
+/* Set a style for the submit/login button */
+.btn {
+    width: 47%;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(231, 211, 205);
+    color: #3f3f33;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Mafisha";
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgb(152 232 226 / 30%);
+    margin-top: 30px;
+}
+
+/* Add some hover effects to buttons */
+
+.edit .btn:hover,
+.open-button:hover,
+.add .btn:hover {
+    opacity: 0.8;
+}
+
+.inpLabel {
+    display: flex;
+}
+
+.addSer {
+    margin-left: 2%;
+}
+
+.days {
+    margin-left: 2%;
+}
+
+.Select {
+    display: flex;
+}
+.add-edit {
+    display: flex;
+    flex-direction: row;
+}
+.open-button {
+    width: 47%;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(231, 211, 205);
+    color: #3f3f33;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Mafisha";
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 30px 0px rgb(231 211 205);
+    margin-top: 30px;
+}

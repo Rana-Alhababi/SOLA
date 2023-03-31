@@ -1,0 +1,159 @@
+
+.Salons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.Salons-container .sal_row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Salons-container .sal_row:hover {
+    box-shadow: 0px 20px 30px rgb(0 0 0 / 10%);
+    transform: translateY(-10px);
+    z-index: 99;
+}
+
+
+
+.Salons-container .row .sa_img {
+    flex: 1;
+}
+
+
+.Salons-container .row .sa_elm {
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+#S{
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
+
+.MainSalon img {
+    width: 455px;
+    height: 300px;
+}
+
+.menu_item {
+    font-weight: bold;
+}
+
+title {
+    font-size: 4.5rem;
+}
+.salon-Name{
+    font-family: "Phitagate";
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.salon-desc {
+    font-family: "Mafisha";
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: smaller;
+}
+.flexbox {
+    display: flex;
+    justify-content: right;
+    margin-right: 3%;
+}
+
+.search>div {
+    display: inline-block;
+    position: relative;
+    filter: drop-shadow(0 1px #e8e8e8);
+}
+
+.search>div:after {
+    content: "";
+    background: #3f3f3f;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    right: -1px;
+    transform: rotate(148deg);
+}
+
+.search>div>input {
+    color: #3f3f3f;
+    font-size: 16px;
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border: solid 2px #3f3f3f;
+    outline: none;
+    border-radius: 35px;
+    transition: width 0.5s;
+}
+
+.search>div>input::placeholder {
+    color: #3f3f3f;
+    font-weight: lighter;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}
+
+.search>div>input:focus::placeholder {
+    opacity: 1;
+}
+
+.search>div>input:focus,
+.search>div>input:not(:placeholder-shown) {
+    width: 250px;
+
+}
+
+#switchM {
+    border-radius: 25px;
+    background-color: transparent;
+    border: none;
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'times new square';
+    margin-left: 84%;
+ }
+ #switchM span {
+	 cursor: pointer;
+	 display: inline-block;
+	 position: relative;
+	 transition: 0.5s;
+     font-family: 'Mafisha';
+ }
+ #switchM span:after {
+	 content: '\00bb';
+	 position: absolute;
+	 opacity: 0;
+	 top: 0;
+	 right: -20px;
+	 transition: 0.5s;
+ }
+ #switchM:hover span {
+	 padding-right: 25px;
+ }
+ #switchM:hover span:after {
+	 opacity: 1;
+	 right: 0;
+ }
